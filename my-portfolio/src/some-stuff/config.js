@@ -51,7 +51,7 @@ const navBar = {
     imageSize: 375,
     message:
       "My name is Yiyi Niu, you can call me Yiyi. I am a final year student at Ludwig Maximilian University of Munich, majoring in Computer Science and Statistics. I am passionate about web development and data science. I am currently looking for a working student position in software engineering.In my free time I would like to kill time by working out.",
-    resume: require("../some-stuff/resume_en_niu_itc.pdf"),
+    resume: require("../some-stuff/resume_EN_new.pdf"),
   };
   
   // PROJECTS SECTION
