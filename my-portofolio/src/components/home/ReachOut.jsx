@@ -10,3 +10,4 @@ const ReachOut =({heading,message,email})=>{
         </>
     )
 };
+export default ReachOut;

@@ -12,10 +12,11 @@ const AboutMe = ({ heading, message, link, imgSize, resume }) => {
   const [showPic, setShowPic] = React.useState(Boolean(link));
   
   // https://stackoverflow.com/questions/55840294/how-to-fix-missing-dependency-warning-when-using-useeffect-react-hook
+  //TODO: check out how to get the profile picture from instagram
   React.useEffect(() => {
     const handleRequest = async () => {
       const instaLink = "https://www.instagram.com/";
-      const instaQuery = "/?__a=1";
+      const instaQuery = "/?__a=1";   //doesn't work anymore
       try {
         const response = await axios.get(instaLink + link + instaQuery);
         setProfilePicUrl(response.data.graphql.user.profile_pic_url_hd);
