@@ -7,12 +7,12 @@ import {
     skills,
     reachOut,
     } from './some-stuff/config.js';
-import MainBody from './components/home/MainBody.jsx'; 
-import AboutMe from './components/home/AboutMe.jsx';
-import ReachOut from './components/home/ReachOut.jsx';
-import Footer from './components/Footer.jsx';
-import Navbar from './components/Navbar.jsx';
-import Skills from './components/home/Skills.jsx';
+import MainBody from './components/home/MainBody'; 
+import AboutMe from './components/home/AboutMe';
+import ReachOut from './components/home/ReachOut';
+import Footer from './components/Footer';
+import Navbar from './components/Navbar';
+import Skills from './components/home/Skills';
 
 
 const Home = React.forwardRef((props, ref) => {
